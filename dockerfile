@@ -36,7 +36,7 @@ RUN mkdir -p /var/run/sshd
 ADD . /var/www/html/
 # COPY . /var/www/html/
 
-# Setting and Options for LAMP
+# Setting and Options - LAMP
 
 ## First: Auto-Start for apache2 and mod_rewrite
 RUN update-rc.d apache2 defaults
